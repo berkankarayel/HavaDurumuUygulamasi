@@ -9,7 +9,7 @@ const weatherApi = new WeatherAPI();
 
 searchInput.addEventListener("keypress", getWeatherInfo);
 
-
+// bu fonksiyon düzenlendi
 function getWeatherInfo(e) {
     if (e.keyCode == '13') {
         //Enter'a basmış.
@@ -35,6 +35,6 @@ function displayInfos(data) {
     clearInputs();
 }
 
-function clearInputs(){
-    searchInput.value="";
+function clearInputs() {
+    searchInput.value = "";
 }
